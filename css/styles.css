@@ -33,12 +33,44 @@ Basic rules to write CSS
 (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
 */
 
-body {}
+body {
+    background-color: LightGray;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 0px 15px
+}
 
 
 /* Header styles (Main Module)
 (all the styles inside the < header > or < nav > tags)
 */
+
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation .content {
+    width: 970px;
+    height: 70px;
+}
+
+.top-navigation .logo {
+    height: 4.375em;
+}
+
+.top-navigation .links {
+    display: inline-block;
+    float: right;
+    font-size: 1.04em;
+    margin-top: 1.7em;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563em;
+}
 
 
 /* Content styles (Main Module)
