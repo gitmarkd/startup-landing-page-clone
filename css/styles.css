@@ -295,7 +295,7 @@ place all the mobile tables styles bellow this line
         width: 95%;
     }
     .top-navigation .links li {
-        margin-left: 0.4em;
+        margin-left: 0.3em;
     }
     .introduction {
         height: 23em;
@@ -340,9 +340,31 @@ place all the mobile tables styles bellow this line
     .content {
         width: 100%;
     }
+    /*
+    .top-navigation .links li {
+        margin-left: 0.4em;
+    }
     .top-navigation .links li:last-child {
         margin-right: 0.5em;
     }
+*/
+    .top-navigation .logo {
+        display: block;
+        height: 3.5em;
+        margin: 0.3em auto;
+    }
+    .top-navigation .links {
+        float: left;
+        margin-top: 0em;
+        width: 100%;
+    }
+    .top-navigation .links li {
+        display: block;
+        padding: 0.3em;
+        border-bottom: 0.1em solid #dddddd;
+        text-align: center;
+    }
+    /*
     .introduction {
         height: 18em;
     }
@@ -353,15 +375,20 @@ place all the mobile tables styles bellow this line
     .introduction h3 {
         font-size: 1.05em;
     }
+*/
+    .introduction {
+        height: 35em;
+    }
+    .introduction h1 {
+        margin-top: 9em;
+        font-size: 1.9em;
+    }
+    .introduction h3 {
+        font-size: 1em;
+    }
     .cases h2 {
         font-size: 1.5em;
         margin-top: 0.75em;
-    }
-    .cases .flexParent {
-        /*        display: block;*/
-    }
-    .cases .devices {
-        /*        width: 100%;*/
     }
     .cases .flexParent h3 {
         font-size: 1.2em;
