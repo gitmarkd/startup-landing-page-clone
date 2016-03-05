@@ -385,7 +385,7 @@ place all the mobile tables styles bellow this line
     .top-navigation .logo {
         display: block;
         height: 2.5em;
-        margin: 0.3em;
+        margin: 0.3em auto;
     }
     .top-navigation .links {
         float: left;
