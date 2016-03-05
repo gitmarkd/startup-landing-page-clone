@@ -50,7 +50,7 @@ body {
 .content {
     width: 75%;
     margin: 0 auto;
-    /*    padding: 0 0.938em;*/
+    /*    border: 1px solid #ff0000;*/
 }
 
 ol,
@@ -67,7 +67,7 @@ button {
 
 .cases .devices {
     width: 33.3333333%;
-    display: inline-block;
+    text-align: center;
     /* styles to assist with debugging */
     /*    border: 0.0625em solid black;*/
     /*    box-sizing: border-box;*/
@@ -180,20 +180,15 @@ button {
     margin: 2.8em 0em 1em 0em;
 }
 
+.cases .flexParent {
+    display: flex;
+}
+
 .cases .flexParent h3 {
     font-weight: 400;
     font-size: 1.563em;
     color: #333333;
     margin: 1.5em 0em 1.875em;
-}
-
-.cases .flexParent {
-    display: flex;
-}
-
-.cases .flexParent .devices {
-    display: flex;
-    justify-content: center;
 }
 
 
@@ -315,12 +310,16 @@ place all the mobile tables styles bellow this line
         font-size: 2em;
         margin: 1.5em 0em 1em 0em;
     }
-    .cases .devices {
-        width: 90%;
+    .cases .flexParent {
         display: block;
     }
-    .cases .flexParent .devices {
-        display: block;
+    .cases .devices {
+        width: 100%;
+    }
+    .cases .flexParent h3 {
+        font-weight: 400;
+        font-size: 1.563em;
+        margin: 1.5em 0em 1em 0em;
     }
 }
 
